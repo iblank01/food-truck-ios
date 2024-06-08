@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFFFA2C42C14EF0B00571227 /* food_truck_ios_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFA2C32C14EF0B00571227 /* food_truck_ios_appApp.swift */; };
+		EFFFA2C62C14EF0B00571227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFA2C52C14EF0B00571227 /* ContentView.swift */; };
+		EFFFA2C82C14EF0D00571227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFFA2C72C14EF0D00571227 /* Assets.xcassets */; };
+		EFFFA2CB2C14EF0D00571227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFFA2CA2C14EF0D00571227 /* Preview Assets.xcassets */; };
+		EFFFA2D52C14EF0D00571227 /* food_truck_ios_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFA2D42C14EF0D00571227 /* food_truck_ios_appTests.swift */; };
+		EFFFA2DF2C14EF0E00571227 /* food_truck_ios_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFA2DE2C14EF0E00571227 /* food_truck_ios_appUITests.swift */; };
+		EFFFA2E12C14EF0E00571227 /* food_truck_ios_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFFA2E02C14EF0E00571227 /* food_truck_ios_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFFFA2D12C14EF0D00571227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFFA2B82C14EF0B00571227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFFA2BF2C14EF0B00571227;
+			remoteInfo = "food-truck-ios-app";
+		};
+		EFFFA2DB2C14EF0E00571227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFFA2B82C14EF0B00571227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFFA2BF2C14EF0B00571227;
+			remoteInfo = "food-truck-ios-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFFFA2C02C14EF0B00571227 /* food-truck-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food-truck-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFFA2C32C14EF0B00571227 /* food_truck_ios_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_truck_ios_appApp.swift; sourceTree = "<group>"; };
+		EFFFA2C52C14EF0B00571227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFFFA2C72C14EF0D00571227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFFFA2CA2C14EF0D00571227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFFFA2D02C14EF0D00571227 /* food-truck-ios-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "food-truck-ios-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFFA2D42C14EF0D00571227 /* food_truck_ios_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_truck_ios_appTests.swift; sourceTree = "<group>"; };
+		EFFFA2DA2C14EF0E00571227 /* food-truck-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "food-truck-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFFA2DE2C14EF0E00571227 /* food_truck_ios_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_truck_ios_appUITests.swift; sourceTree = "<group>"; };
+		EFFFA2E02C14EF0E00571227 /* food_truck_ios_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_truck_ios_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFFA2BD2C14EF0B00571227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFFA2CD2C14EF0D00571227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFFA2D72C14EF0E00571227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFFFA2B72C14EF0B00571227 = {
+			isa = PBXGroup;
+			children = (
+				EFFFA2C22C14EF0B00571227 /* food-truck-ios-app */,
+				EFFFA2D32C14EF0D00571227 /* food-truck-ios-appTests */,
+				EFFFA2DD2C14EF0E00571227 /* food-truck-ios-appUITests */,
+				EFFFA2C12C14EF0B00571227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFFA2C12C14EF0B00571227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFFA2C02C14EF0B00571227 /* food-truck-ios-app.app */,
+				EFFFA2D02C14EF0D00571227 /* food-truck-ios-appTests.xctest */,
+				EFFFA2DA2C14EF0E00571227 /* food-truck-ios-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFFA2C22C14EF0B00571227 /* food-truck-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				EFFFA2C32C14EF0B00571227 /* food_truck_ios_appApp.swift */,
+				EFFFA2C52C14EF0B00571227 /* ContentView.swift */,
+				EFFFA2C72C14EF0D00571227 /* Assets.xcassets */,
+				EFFFA2C92C14EF0D00571227 /* Preview Content */,
+			);
+			path = "food-truck-ios-app";
+			sourceTree = "<group>";
+		};
+		EFFFA2C92C14EF0D00571227 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFFFA2CA2C14EF0D00571227 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFFFA2D32C14EF0D00571227 /* food-truck-ios-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFFFA2D42C14EF0D00571227 /* food_truck_ios_appTests.swift */,
+			);
+			path = "food-truck-ios-appTests";
+			sourceTree = "<group>";
+		};
+		EFFFA2DD2C14EF0E00571227 /* food-truck-ios-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFFFA2DE2C14EF0E00571227 /* food_truck_ios_appUITests.swift */,
+				EFFFA2E02C14EF0E00571227 /* food_truck_ios_appUITestsLaunchTests.swift */,
+			);
+			path = "food-truck-ios-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFFA2BF2C14EF0B00571227 /* food-truck-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFFA2E42C14EF0E00571227 /* Build configuration list for PBXNativeTarget "food-truck-ios-app" */;
+			buildPhases = (
+				EFFFA2BC2C14EF0B00571227 /* Sources */,
+				EFFFA2BD2C14EF0B00571227 /* Frameworks */,
+				EFFFA2BE2C14EF0B00571227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "food-truck-ios-app";
+			productName = "food-truck-ios-app";
+			productReference = EFFFA2C02C14EF0B00571227 /* food-truck-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFFFA2CF2C14EF0D00571227 /* food-truck-ios-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFFA2E72C14EF0E00571227 /* Build configuration list for PBXNativeTarget "food-truck-ios-appTests" */;
+			buildPhases = (
+				EFFFA2CC2C14EF0D00571227 /* Sources */,
+				EFFFA2CD2C14EF0D00571227 /* Frameworks */,
+				EFFFA2CE2C14EF0D00571227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFFA2D22C14EF0D00571227 /* PBXTargetDependency */,
+			);
+			name = "food-truck-ios-appTests";
+			productName = "food-truck-ios-appTests";
+			productReference = EFFFA2D02C14EF0D00571227 /* food-truck-ios-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFFFA2D92C14EF0E00571227 /* food-truck-ios-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFFA2EA2C14EF0E00571227 /* Build configuration list for PBXNativeTarget "food-truck-ios-appUITests" */;
+			buildPhases = (
+				EFFFA2D62C14EF0E00571227 /* Sources */,
+				EFFFA2D72C14EF0E00571227 /* Frameworks */,
+				EFFFA2D82C14EF0E00571227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFFA2DC2C14EF0E00571227 /* PBXTargetDependency */,
+			);
+			name = "food-truck-ios-appUITests";
+			productName = "food-truck-ios-appUITests";
+			productReference = EFFFA2DA2C14EF0E00571227 /* food-truck-ios-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFFA2B82C14EF0B00571227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EFFFA2BF2C14EF0B00571227 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EFFFA2CF2C14EF0D00571227 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EFFFA2BF2C14EF0B00571227;
+					};
+					EFFFA2D92C14EF0E00571227 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EFFFA2BF2C14EF0B00571227;
+					};
+				};
+			};
+			buildConfigurationList = EFFFA2BB2C14EF0B00571227 /* Build configuration list for PBXProject "food-truck-ios-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFFFA2B72C14EF0B00571227;
+			productRefGroup = EFFFA2C12C14EF0B00571227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFFA2BF2C14EF0B00571227 /* food-truck-ios-app */,
+				EFFFA2CF2C14EF0D00571227 /* food-truck-ios-appTests */,
+				EFFFA2D92C14EF0E00571227 /* food-truck-ios-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFFA2BE2C14EF0B00571227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFFA2CB2C14EF0D00571227 /* Preview Assets.xcassets in Resources */,
+				EFFFA2C82C14EF0D00571227 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFFA2CE2C14EF0D00571227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFFA2D82C14EF0E00571227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFFA2BC2C14EF0B00571227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFFA2C62C14EF0B00571227 /* ContentView.swift in Sources */,
+				EFFFA2C42C14EF0B00571227 /* food_truck_ios_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFFA2CC2C14EF0D00571227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFFA2D52C14EF0D00571227 /* food_truck_ios_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFFA2D62C14EF0E00571227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFFA2E12C14EF0E00571227 /* food_truck_ios_appUITestsLaunchTests.swift in Sources */,
+				EFFFA2DF2C14EF0E00571227 /* food_truck_ios_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFFFA2D22C14EF0D00571227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFFA2BF2C14EF0B00571227 /* food-truck-ios-app */;
+			targetProxy = EFFFA2D12C14EF0D00571227 /* PBXContainerItemProxy */;
+		};
+		EFFFA2DC2C14EF0E00571227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFFA2BF2C14EF0B00571227 /* food-truck-ios-app */;
+			targetProxy = EFFFA2DB2C14EF0E00571227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFFFA2E22C14EF0E00571227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFFFA2E32C14EF0E00571227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFFA2E52C14EF0E00571227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"food-truck-ios-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "StreetEats.food-truck-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFFFA2E62C14EF0E00571227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"food-truck-ios-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "StreetEats.food-truck-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFFFA2E82C14EF0E00571227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "StreetEats.food-truck-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food-truck-ios-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/food-truck-ios-app";
+			};
+			name = Debug;
+		};
+		EFFFA2E92C14EF0E00571227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "StreetEats.food-truck-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/food-truck-ios-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/food-truck-ios-app";
+			};
+			name = Release;
+		};
+		EFFFA2EB2C14EF0E00571227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "StreetEats.food-truck-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "food-truck-ios-app";
+			};
+			name = Debug;
+		};
+		EFFFA2EC2C14EF0E00571227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "StreetEats.food-truck-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "food-truck-ios-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFFA2BB2C14EF0B00571227 /* Build configuration list for PBXProject "food-truck-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFFA2E22C14EF0E00571227 /* Debug */,
+				EFFFA2E32C14EF0E00571227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFFA2E42C14EF0E00571227 /* Build configuration list for PBXNativeTarget "food-truck-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFFA2E52C14EF0E00571227 /* Debug */,
+				EFFFA2E62C14EF0E00571227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFFA2E72C14EF0E00571227 /* Build configuration list for PBXNativeTarget "food-truck-ios-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFFA2E82C14EF0E00571227 /* Debug */,
+				EFFFA2E92C14EF0E00571227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFFA2EA2C14EF0E00571227 /* Build configuration list for PBXNativeTarget "food-truck-ios-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFFA2EB2C14EF0E00571227 /* Debug */,
+				EFFFA2EC2C14EF0E00571227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFFA2B82C14EF0B00571227 /* Project object */;
+}
